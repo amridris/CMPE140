@@ -31,7 +31,7 @@ module factorial_CU(
     reg[2:0] current_state = 0, next_state;
     reg error_internal = 0, done_internal = 0;
   
-    assign err = GT_input;
+    assign error = GT_input;
     assign done = done_internal;
     
     //encode states
