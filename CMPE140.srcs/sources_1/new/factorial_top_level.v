@@ -30,7 +30,7 @@ module factorial_top_level(
     wire sel, load_reg, load_cnt, oe, en, gt_input, gt_fact;
     
     factorial_DP datapath(.clk(clk), .en(en), .n(n), .sel(sel), .load_reg(load_reg), .load_cnt(load_cnt), .oe(oe), .gt_fact(gt_fact), .gt_input(gt_input), .nf(nf));
-    factorial_CU control_unit(.en(en), .go(GO), .clk(clk), .load_reg(load_reg), .load_cnt(load_cnt), .oe(oe), .GT_fact(gt_fact), .GT_input(gt_input), .done(Done), .error(error));
+    factorial_CU control_unit(.en(en), .go(Go), .clk(clk),.sel(sel), .load_reg(load_reg), .load_cnt(load_cnt), .oe(oe), .GT_fact(gt_fact), .GT_input(gt_input), .done(Done), .error(error));
     
     
 endmodule

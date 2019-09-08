@@ -1,0 +1,43 @@
+Vivado Simulator 2019.1
+Time resolution is 1 ps
+Factorial DP + CU test
+FPGA computed Factorial 1 = 1
+Software computed Factorial 1 = 1
+
+FPGA computed Factorial 2 = 2
+Software computed Factorial 2 = 2
+
+FPGA computed Factorial 3 = 6
+Software computed Factorial 3 = 6
+
+FPGA computed Factorial 4 = 24
+Software computed Factorial 4 = 24
+
+FPGA computed Factorial 5 = 120
+Software computed Factorial 5 = 120
+
+FPGA computed Factorial 6 = 720
+Software computed Factorial 6 = 720
+
+FPGA computed Factorial 7 = 5040
+Software computed Factorial 7 = 5040
+
+FPGA computed Factorial 8 = 40320
+Software computed Factorial 8 = 40320
+
+FPGA computed Factorial 9 = 362880
+Software computed Factorial 9 = 362880
+
+FPGA computed Factorial 10 = 3628800
+Software computed Factorial 10 = 3628800
+
+FPGA computed Factorial 11 = 39916800
+Software computed Factorial 11 = 39916800
+
+FPGA computed Factorial 12 = 479001600
+Software computed Factorial 12 = 479001600
+
+Error received, input = 13
+Error received, input = 14
+Completed the factorial test
+$finish called at time : 20400 ns : File "C:/Users/Amer/CMPE140/CMPE140.srcs/sim_1/new/factorial_tb.v" Line 101

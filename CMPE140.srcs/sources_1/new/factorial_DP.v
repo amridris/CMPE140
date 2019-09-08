@@ -36,6 +36,6 @@ module factorial_DP #(parameter Data_Width = 32)(
     multiply #(32) MUL (.x({28'b0,cnt_out}),.y(reg_out), .result(mul_out));
     MUX2 #(32) MUX (.input2(32'b1), .input1(mul_out), .sel(sel), .out(mux_out));
     MUX2 #(32) Out_buffer (.input1(32'b0), .input2(reg_out), .sel(oe), .out(nf));
-    register #(32) REG (.data(mux_out), .out(reg_out), .load_reg(load_reg), .clk(clk));
+    register #(32) REG (.data(mux_out), .out(reg_out), .load_value(load_reg), .clk(clk));
      
 endmodule
