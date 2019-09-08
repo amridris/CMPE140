@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module register_file #(parameter Data_Width = 32)(
+module register #(parameter Data_Width = 32)(
     input [Data_Width - 1:0] data,
     input clk, load_value,
     output reg [Data_Width - 1:0] out

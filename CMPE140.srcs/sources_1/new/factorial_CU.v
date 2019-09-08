@@ -67,23 +67,23 @@ module factorial_CU(
      always@(current_state)
         begin
             case(current_state)
-                Idle: //(S1)
+                Idle: //(S0)
                     begin
                         {sel, load_cnt, en, load_reg, oe, done_internal} <= 6'b1_1_1_0_0_0;
                     end
-                load_cnt_and_reg: //(S2)
+                load_cnt_and_reg: //(S1)
                     begin
                         {sel, load_cnt, en, load_reg, oe, done_internal} <= 6'b1_1_1_1_0_0;
                     end
-                Wait: //(S3)
+                Wait: //(S2)
                     begin
                         {sel, load_cnt, en, load_reg, oe, done_internal} <= 6'b0_0_0_0_0_0;
                     end
-                oe_and_done:  //(S4)
+                oe_and_done:  //(S3)
                     begin
                         {sel, load_cnt, en, load_reg, oe, done_internal} <= 6'b0_0_0_0_1_1;
                     end
-                multiply_and_decrement:  //(S5)
+                multiply_and_decrement:  //(S4)
                     begin
                         {sel, load_cnt, en, load_reg, oe, done_internal} <= 6'b0_0_1_1_0_0;
                     end
