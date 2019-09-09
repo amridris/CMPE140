@@ -1,3 +1,4 @@
+
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // Company: 
@@ -67,10 +68,10 @@ module factorial_fpga(
     );
     
     clk_gen clock_generation(
-    .clk100MHZ(clk_100MHZ),
+    .clk100MHz(clk_100MHZ),
     .rst(rst_dummy),
     .clk_4sec(DONT_USE),
-    .clk_5KHZ(clk_5khz)
+    .clk_5KHz(clk_5khz)
     );
     
     bin32_to_8hex(
@@ -124,6 +125,5 @@ module factorial_fpga(
     .HEX(hex[7]),
     .s(led[7])
     );
-    
     
 endmodule

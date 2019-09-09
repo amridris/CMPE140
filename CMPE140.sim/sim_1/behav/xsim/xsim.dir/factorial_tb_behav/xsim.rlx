@@ -1,11 +1,11 @@
 
 { 
-    crc :  1488534117429500770  , 
+    crc :  7915827406002678528  , 
     ccp_crc :  0  , 
-    cmdline : " -wto cdf8691d879a421dbf8400c0080e5f3e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot factorial_tb_behav xil_defaultlib.factorial_tb xil_defaultlib.glbl" , 
+    cmdline : " -wto cdf8691d879a421dbf8400c0080e5f3e --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot factorial_tb_behav xil_defaultlib.factorial_tb xil_defaultlib.glbl" , 
     buildDate : "May 24 2019" , 
-    buildTime : "15:06:07" , 
-    linkCmd : "D:\\Xilinx\\Vivado\\2019.1\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/factorial_tb_behav/xsimk.exe\"   \"xsim.dir/factorial_tb_behav/obj/xsim_0.win64.obj\" \"xsim.dir/factorial_tb_behav/obj/xsim_1.win64.obj\" -L\"D:\\Xilinx\\Vivado\\2019.1\\lib\\win64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
+    buildTime : "14:51:52" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/factorial_tb_behav/xsimk\"   \"xsim.dir/factorial_tb_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/factorial_tb_behav/obj/xsim_1.lnx64.o\" -L\"/home/amer/Xilinx/Vivado/2019.1/lib/lnx64.o\" -lrdi_simulator_kernel   -lrdi_simbridge_kernel" , 
     aggregate_nets : 
     [ 
     ] 

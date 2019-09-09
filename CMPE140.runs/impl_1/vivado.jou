@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Sep  8 18:04:25 2019
+# Process ID: 18800
+# Current directory: /home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1
+# Command line: vivado -log factorial_fpga.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source factorial_fpga.tcl -notrace
+# Log file: /home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1/factorial_fpga.vdi
+# Journal file: /home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source factorial_fpga.tcl -notrace

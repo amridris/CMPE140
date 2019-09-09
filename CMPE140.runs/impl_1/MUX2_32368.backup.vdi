@@ -1,0 +1,560 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:47:09 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sun Sep  8 17:02:28 2019
+# Process ID: 32368
+# Current directory: /home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1
+# Command line: vivado -log MUX2.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MUX2.tcl -notrace
+# Log file: /home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1/MUX2.vdi
+# Journal file: /home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source MUX2.tcl -notrace
+Command: link_design -top MUX2 -part xc7a100tcsg324-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Project 1-479] Netlist was created with Vivado 2019.1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk_100MHZ'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk_100MHZ'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:3]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk_100MHZ]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:3]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'n[0]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'n[1]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'n[2]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'n[3]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'go'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'main_clk'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_out[0]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_out[1]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_out[2]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_out[3]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_out[4]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_out[5]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_out[6]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_out[7]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_sel[0]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_sel[1]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_sel[2]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_sel[3]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_sel[4]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_sel[5]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_sel[6]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'led_sel[7]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'n_out[0]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'n_out[1]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'n_out[2]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'n_out[3]'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'done'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'error'. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.srcs/constrs_1/new/fpga_factorial.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1701.711 ; gain = 0.000 ; free physical = 1719 ; free virtual = 5687
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+5 Infos, 30 Warnings, 30 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1844.055 ; gain = 138.375 ; free physical = 1707 ; free virtual = 5675
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2246.062 ; gain = 402.008 ; free physical = 1328 ; free virtual = 5296
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5180
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5180
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5180
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5180
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5180
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5180
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               0  |               0  |                                              0  |
+|  Constant propagation         |               0  |               0  |                                              0  |
+|  Sweep                        |               0  |               0  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5180
+Ending Logic Optimization Task | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5180
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5179
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5179
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5179
+Ending Netlist Obfuscation Task | Checksum: 0de3a85a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5179
+INFO: [Common 17-83] Releasing license: Implementation
+22 Infos, 30 Warnings, 30 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2362.000 ; gain = 656.320 ; free physical = 1210 ; free virtual = 5179
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2362.000 ; gain = 0.000 ; free physical = 1210 ; free virtual = 5179
+INFO: [Timing 38-480] Writing timing data to binary archive.
+INFO: [Common 17-1381] The checkpoint '/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1/MUX2_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file MUX2_drc_opted.rpt -pb MUX2_drc_opted.pb -rpx MUX2_drc_opted.rpx
+Command: report_drc -file MUX2_drc_opted.rpt -pb MUX2_drc_opted.pb -rpx MUX2_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/amer/Xilinx/Vivado/2019.1/data/ip'.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1/MUX2_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 8 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1190 ; free virtual = 5161
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 08e9c8eb
+
+Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1190 ; free virtual = 5161
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1190 ; free virtual = 5161
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 88fbfb4c
+
+Time (s): cpu = 00:00:00.73 ; elapsed = 00:00:00.46 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1166 ; free virtual = 5137
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 15471b02e
+
+Time (s): cpu = 00:00:00.77 ; elapsed = 00:00:00.50 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1166 ; free virtual = 5137
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 15471b02e
+
+Time (s): cpu = 00:00:00.78 ; elapsed = 00:00:00.50 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1166 ; free virtual = 5137
+Phase 1 Placer Initialization | Checksum: 15471b02e
+
+Time (s): cpu = 00:00:00.78 ; elapsed = 00:00:00.50 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1166 ; free virtual = 5137
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 15471b02e
+
+Time (s): cpu = 00:00:00.78 ; elapsed = 00:00:00.50 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1165 ; free virtual = 5136
+
+Phase 2.2 Global Placement Core
+WARNING: [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer
+Phase 2.2 Global Placement Core | Checksum: fb15eb84
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.69 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1148 ; free virtual = 5118
+Phase 2 Global Placement | Checksum: fb15eb84
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.69 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1148 ; free virtual = 5118
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: fb15eb84
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.70 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1148 ; free virtual = 5118
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: bdc9810a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.70 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1148 ; free virtual = 5118
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 11d29b072
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.71 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1148 ; free virtual = 5118
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 11d29b072
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.71 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1148 ; free virtual = 5118
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: f681943c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.85 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1144 ; free virtual = 5115
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: f681943c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.85 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1144 ; free virtual = 5115
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: f681943c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.85 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1144 ; free virtual = 5115
+Phase 3 Detail Placement | Checksum: f681943c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.85 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1144 ; free virtual = 5115
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.1 Post Commit Optimization | Checksum: f681943c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.86 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1144 ; free virtual = 5115
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: f681943c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.87 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1146 ; free virtual = 5117
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: f681943c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.87 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1146 ; free virtual = 5117
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1146 ; free virtual = 5117
+Phase 4.4 Final Placement Cleanup | Checksum: f681943c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.87 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1146 ; free virtual = 5117
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: f681943c
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.87 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1146 ; free virtual = 5117
+Ending Placer Task | Checksum: 6dda9d7a
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.87 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1146 ; free virtual = 5117
+INFO: [Common 17-83] Releasing license: Implementation
+40 Infos, 31 Warnings, 30 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1163 ; free virtual = 5134
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1164 ; free virtual = 5135
+INFO: [Common 17-1381] The checkpoint '/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1/MUX2_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file MUX2_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00.11 ; elapsed = 00:00:00.14 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1154 ; free virtual = 5125
+INFO: [runtcl-4] Executing : report_utilization -file MUX2_utilization_placed.rpt -pb MUX2_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file MUX2_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00.05 ; elapsed = 00:00:00.08 . Memory (MB): peak = 2454.848 ; gain = 0.000 ; free physical = 1160 ; free virtual = 5131
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a100t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 8 CPUs
+Checksum: PlaceDB: 64f0d48f ConstDB: 0 ShapeSum: 8e9c8eb RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: ab0e7492
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 2525.172 ; gain = 3.949 ; free physical = 1018 ; free virtual = 4990
+Post Restoration Checksum: NetGraph: 6b5eac6b NumContArr: 3fafc827 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: ab0e7492
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 2550.168 ; gain = 28.945 ; free physical = 983 ; free virtual = 4955
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: ab0e7492
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 2550.168 ; gain = 28.945 ; free physical = 983 ; free virtual = 4955
+ Number of Nodes with overlaps = 0
+Phase 2 Router Initialization | Checksum: 1927fbe01
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:17 . Memory (MB): peak = 2557.434 ; gain = 36.211 ; free physical = 980 ; free virtual = 4952
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0 %
+  Global Horizontal Routing Utilization  = 0 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 97
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 97
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: e3d8b4bd
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 2565.883 ; gain = 44.660 ; free physical = 978 ; free virtual = 4950
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: eba2f4b3
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 2565.883 ; gain = 44.660 ; free physical = 977 ; free virtual = 4949
+Phase 4 Rip-up And Reroute | Checksum: eba2f4b3
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 2565.883 ; gain = 44.660 ; free physical = 977 ; free virtual = 4949
+
+Phase 5 Delay and Skew Optimization
+Phase 5 Delay and Skew Optimization | Checksum: eba2f4b3
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 2565.883 ; gain = 44.660 ; free physical = 977 ; free virtual = 4949
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+Phase 6.1 Hold Fix Iter | Checksum: eba2f4b3
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 2565.883 ; gain = 44.660 ; free physical = 977 ; free virtual = 4949
+Phase 6 Post Hold Fix | Checksum: eba2f4b3
+
+Time (s): cpu = 00:00:21 ; elapsed = 00:00:18 . Memory (MB): peak = 2565.883 ; gain = 44.660 ; free physical = 977 ; free virtual = 4949
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0913087 %
+  Global Horizontal Routing Utilization  = 0.129724 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 32.4324%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 27.027%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 35.2941%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 17.6471%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: eba2f4b3
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 2566.883 ; gain = 45.660 ; free physical = 977 ; free virtual = 4949
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: eba2f4b3
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 2569.883 ; gain = 48.660 ; free physical = 976 ; free virtual = 4948
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: eba2f4b3
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 2569.883 ; gain = 48.660 ; free physical = 976 ; free virtual = 4948
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:18 . Memory (MB): peak = 2569.883 ; gain = 48.660 ; free physical = 1013 ; free virtual = 4985
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+53 Infos, 31 Warnings, 30 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:19 . Memory (MB): peak = 2569.883 ; gain = 115.035 ; free physical = 1013 ; free virtual = 4985
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2569.883 ; gain = 0.000 ; free physical = 1013 ; free virtual = 4985
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.02 . Memory (MB): peak = 2569.883 ; gain = 0.000 ; free physical = 1011 ; free virtual = 4984
+INFO: [Common 17-1381] The checkpoint '/home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1/MUX2_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file MUX2_drc_routed.rpt -pb MUX2_drc_routed.pb -rpx MUX2_drc_routed.rpx
+Command: report_drc -file MUX2_drc_routed.rpt -pb MUX2_drc_routed.pb -rpx MUX2_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1/MUX2_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file MUX2_methodology_drc_routed.rpt -pb MUX2_methodology_drc_routed.pb -rpx MUX2_methodology_drc_routed.rpx
+Command: report_methodology -file MUX2_methodology_drc_routed.rpt -pb MUX2_methodology_drc_routed.pb -rpx MUX2_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 8 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/amer/Xilinx/Vivado/2019.1/CMPE140/CMPE140.runs/impl_1/MUX2_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file MUX2_power_routed.rpt -pb MUX2_power_summary_routed.pb -rpx MUX2_power_routed.rpx
+Command: report_power -file MUX2_power_routed.rpt -pb MUX2_power_summary_routed.pb -rpx MUX2_power_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+WARNING: [Power 33-232] No user defined clocks were found in the design! Power estimation will be inaccurate until this is corrected.
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+65 Infos, 32 Warnings, 30 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file MUX2_route_status.rpt -pb MUX2_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file MUX2_timing_summary_routed.rpt -pb MUX2_timing_summary_routed.pb -rpx MUX2_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file MUX2_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file MUX2_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file MUX2_bus_skew_routed.rpt -pb MUX2_bus_skew_routed.pb -rpx MUX2_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 8 CPUs
+INFO: [Common 17-206] Exiting Vivado at Sun Sep  8 17:03:13 2019...

@@ -21,16 +21,16 @@
 
 
 module MUX2 #(parameter Data_Width  = 32)(
-    input [Data_Width - 1:0] input1, input2,
+    input [Data_Width - 1:0] value1, value2,
     input sel,
     output reg [Data_Width-1:0] out
     );
     
-    always @(input1, input2, sel)
+    always @(value1, value2, sel)
         begin 
             if(sel)
-                out <= input2;
+                out <= value2;
             else
-                out <= input1;
+                out <= value1;
         end
 endmodule

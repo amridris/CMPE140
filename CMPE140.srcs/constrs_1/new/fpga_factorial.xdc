@@ -1,6 +1,6 @@
 #Clock
-    set_property -dict {PACKAGE_PIN E3  IOSTANDARD LVCMOS33} [get_ports {clk100MHz}]; 
-    create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports {clk_100MHz}];
+    set_property -dict {PACKAGE_PIN E3  IOSTANDARD LVCMOS33} [get_ports {clk_100MHZ}]; 
+    create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports {clk_100MHZ}];
 #switches
     #n
         set_property -dict {PACKAGE_PIN J15 IOSTANDARD LVCMOS33} [get_ports {n[0]}];
@@ -42,4 +42,4 @@
             #green
             set_property -dict {PACKAGE_PIN R11 IOSTANDARD LVCMOS33} [get_ports {done}];
             #red  
-            set_property -dict {PACKAGE_PIN N16 IOSTANDARD LVCMOS33} [get_ports {error}];  //Red
+            set_property -dict {PACKAGE_PIN N16 IOSTANDARD LVCMOS33} [get_ports {error}];  
